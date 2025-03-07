@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins' sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.auth-container {
+    background-color: rgb(230, 217, 217);
+    padding: 20px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin-top: 20%;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #743348;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5e5683;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4c35b3;
+}
